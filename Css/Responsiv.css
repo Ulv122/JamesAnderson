@@ -1,0 +1,495 @@
+/* Home hissesi */
+
+@media (min-width: 1000px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content h2 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content h2 {
+    font-size: 10px;
+  }
+
+  .hero-content p {
+    font-size: 7px;
+  }
+
+  nav {
+    padding: 10px;
+  }
+}
+
+/* About hissesi */
+
+@media (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .about-image {
+    max-width: 100%;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content h2 {
+    font-size: 28px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    max-width: 100%;
+    height: 400px;
+  }
+
+  .about-image img:last-child {
+    right: -30px;
+    top: 30px;
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    height: 300px;
+  }
+
+  .about-image img:last-child {
+    right: -20px;
+    top: 20px;
+    width: 60%;
+    height: 60%;
+  }
+}
+
+/* Portfolio */
+
+@media (max-width: 768px) {
+  .portfolio {
+    padding: 30px;
+  }
+
+  .portfolio-header h2 {
+    font-size: 28px;
+  }
+
+  .portfolio-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .portfolio-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .portfolio-item {
+    grid-area: auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    padding: 20px;
+  }
+
+  .portfolio-header h2 {
+    font-size: 24px;
+  }
+
+  .portfolio-nav a {
+    font-size: 14px;
+  }
+
+  .portfolio-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-item .overlay span {
+    font-size: 16px;
+  }
+}
+
+/* Services */
+
+@media (max-width: 768px) {
+  .Services {
+    padding: 30px;
+  }
+
+  .Services h2 {
+    font-size: 28px;
+  }
+
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Services {
+    padding: 20px;
+  }
+
+  .Services h2 {
+    font-size: 24px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .service-card i {
+    font-size: 30px;
+  }
+
+  .service-card h3 {
+    font-size: 18px;
+  }
+
+  .service-card p {
+    font-size: 12px;
+  }
+}
+
+/* Resume */
+
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .resume-image {
+    max-width: 100%;
+  }
+
+  .resume-content {
+    max-width: 100%;
+  }
+
+  .resume-content h2 {
+    font-size: 28px;
+  }
+
+  .section h3 {
+    font-size: 20px;
+  }
+
+  .experience h4,
+  .education h4 {
+    font-size: 16px;
+  }
+
+  .experience p,
+  .education p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume {
+    padding: 20px;
+  }
+
+  .resume-content h2 {
+    font-size: 24px;
+  }
+
+  .section h3 {
+    font-size: 18px;
+  }
+
+  .experience h4,
+  .education h4 {
+    font-size: 14px;
+  }
+
+  .experience p,
+  .education p {
+    font-size: 10px;
+  }
+
+  .experience .time,
+  .education .time {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+}
+
+/* Blog */
+
+
+@media (max-width:1000px) {
+  .testimonials-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Blog {
+    padding: 30px;
+  }
+
+  .Blog h2 {
+    font-size: 28px;
+  }
+
+  .testimonials-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Blog {
+    padding: 20px;
+  }
+
+  .Blog h2 {
+    font-size: 24px;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-card img {
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    left: 20px;
+  }
+
+  .testimonial-card p {
+    font-size: 12px;
+  }
+
+  .testimonial-card span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .medium-posts {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .medium-posts h2 {
+    font-size: 28px;
+  }
+
+  .post h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .medium-posts h2 {
+    font-size: 24px;
+  }
+
+  .post {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0;
+  }
+
+  .post .date {
+    font-size: 10px;
+  }
+
+  .post h3 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .post .read-time {
+    font-size: 10px;
+  }
+}
+
+/* Contact */
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 30px;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-form button {
+    align-self: center;
+  }
+
+  .contact-info {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contact-info p {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 20px;
+  }
+
+  .contact h2 {
+    font-size: 24px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 12px;
+  }
+
+  .contact-form button {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+
+  .contact-info h3 {
+    font-size: 18px;
+  }
+
+  .contact-info p {
+    font-size: 12px;
+  }
+
+  .contact-info i {
+    font-size: 14px;
+  }
+}
+
+/* Footer */
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-column ul li a {
+    font-size: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 30px 0;
+  }
+
+  .footer-column h3 {
+    font-size: 16px;
+  }
+
+  .footer-column p {
+    font-size: 12px;
+  }
+
+  .social-icons a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social-icons i {
+    font-size: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 10px;
+  }
+}

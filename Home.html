@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James Anderson - Front-end Developer</title>
+    <link rel="stylesheet" href="Css/Style.css" />
+    <link rel="stylesheet" href="Css/Font.css" />
+    <link rel="stylesheet" href="Css/Responsiv.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <nav>
+          <div class="logo">JA</div>
+          <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#">Dropdown <i class="fa-solid fa-angle-down"></i></a>
+              <div class="dropdown-content">
+                <a href="Blog.html">Testimonials</a>
+                <div class="dropdown-item">
+                  <a href="#" class="dropdown-toggle"
+                    >Menu Two <i class="fa-solid fa-chevron-right fa-2xs"></i
+                  ></a>
+                  <div class="dropdown-submenu">
+                    <a href="#">SubMenuOne</a>
+                    <a href="#">SubMenuTwo</a>
+                    <a href="#">SubMenuThree</a>
+                  </div>
+                </div>
+                <a href="#">Menu Three</a>
+              </div>
+            </li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <i class="fa-solid fa-bars fa-2x" style="color: #ffffff"></i>
+          </div>
+        </nav>
+        <div class="hero-content">
+          <h1>I'm James Anderson</h1>
+          <h1>A Front-end Developer</h1>
+          <p>A new work from <a href="#">Colorlib</a></p>
+        </div>
+      </div>
+    </header>
+
+    <div class="about">
+      <div class="about-image">
+        <img src="Imgs/image_1_long.jpg" alt="Person working on laptop" />
+        <img src="Imgs/image.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2>My Bio</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics, a large
+          language ocean.
+        </p>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia. It is a paradisematic country, in which
+          roasted parts of sentences fly into your mouth.
+        </p>
+        <div class="skills">
+          <div class="skill">
+            <span class="skill-name">Design</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%">
+                <span class="percentage"
+                  >85% <i class="fas fa-caret-up"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">HTML5</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 95%">
+                <span class="percentage"
+                  >95% <i class="fas fa-caret-up"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">CSS3</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 97%">
+                <span class="percentage"
+                  >97% <i class="fas fa-caret-up"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">WordPress</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 89%">
+                <span class="percentage"
+                  >89% <i class="fas fa-caret-up"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">Bootstrap</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 92%">
+                <span class="percentage"
+                  >92% <i class="fas fa-caret-up"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="btn hire-btn">Hire Me</a>
+          <a href="#" class="btn download-btn">Download cv</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-header">
+        <h2>My Portfolio</h2>
+        <ul class="portfolio-nav">
+          <li><a href="#" class="active">All</a></li>
+          <li><a href="#">Packaging</a></li>
+          <li><a href="#">Mockup</a></li>
+          <li><a href="#">Typography</a></li>
+          <li><a href="#">Photography</a></li>
+        </ul>
+      </div>
+      <div class="portfolio-gallery">
+        <div class="portfolio-item" style="grid-area: 1 / 1 / 2 / 2">
+          <img src="Imgs/work_5.jpg" alt="Portfolio 1" />
+          <div class="overlay">
+            <span>Card Vol. 3</span>
+            <span style="color: #28a745">Mockup</span>
+          </div>
+        </div>
+        <div class="portfolio-item" style="grid-area: 1 / 2 / 3 / 4">
+          <img src="Imgs/work_1.jpg" alt="Portfolio 2" />
+          <div class="overlay">
+            <span>House Design</span>
+            <span style="color: #28a745">Typography</span>
+          </div>
+        </div>
+        <div class="portfolio-item" style="grid-area: 1 / 4 / 3 / 5">
+          <img src="Imgs/work_2.jpg" alt="Portfolio 3" />
+          <div class="overlay">
+            <span>WoW</span>
+            <span style="color: #28a745">Mockup</span>
+          </div>
+        </div>
+        <div class="portfolio-item" style="grid-area: 2 / 1 / 3 / 2">
+          <img src="Imgs/work_3.jpg" alt="Portfolio 4" />
+          <div class="overlay">
+            <span>Seat</span>
+            <span style="color: #28a745">Packaging</span>
+          </div>
+        </div>
+        <div class="portfolio-item" style="grid-area: 3 / 1 / 4 / 2">
+          <img src="Imgs/work_4.jpg" alt="Portfolio 5" />
+          <div class="overlay">
+            <span>Seat</span>
+            <span style="color: #28a745">Packaging</span>
+          </div>
+        </div>
+        <div class="portfolio-item" style="grid-area: 3 / 2 / 4 / 3">
+          <img src="Imgs/work_7.jpg" alt="Portfolio 6" />
+          <div class="overlay">
+            <span>House Design</span>
+            <span style="color: #28a745">Photography</span>
+          </div>
+        </div>
+        <div class="portfolio-item" style="grid-area: 3 / 3 / 4 / 4">
+          <img src="Imgs/work_6.jpg" alt="Portfolio 7" />
+          <div class="overlay">
+            <span>House Design</span>
+            <span style="color: #28a745">Photography</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Services">
+      <h2>Services</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fas fa-desktop"></i>
+          <h3>Development</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Design</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>eCommerce</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume">
+      <div class="resume-image">
+        <img src="Imgs/image_1_long.jpg" alt="Person working on laptop" />
+      </div>
+      <div class="resume-content">
+        <h2>Resume</h2>
+        <div class="section">
+          <h3>Work Experience</h3>
+          <div class="experience">
+            <div>
+              <h4>Senior Front End Developer</h4>
+              <p>
+                <i class="fas fa-building"></i> Facebook, Inc.
+                <i class="fas fa-map-marker-alt"></i> San Francisco
+              </p>
+            </div>
+            <div>
+              <p>
+                <span
+                  style="
+                    background-color: rgba(150, 187, 124, 0.1);
+                    border-radius: 30px;
+                    padding: 7px 20px;
+                    color: #96bb7c;
+                    font-size: 12px;
+                    letter-spacing: 0.1rem;
+                    font-weight: 700;
+                  "
+                  >FULLTIME</span
+                >
+                <br />
+                <br />
+                <i class="fas fa-calendar-alt"></i> November 2019 - Present
+              </p>
+              <span></span>
+            </div>
+          </div>
+          <div class="experience">
+            <div>
+              <h4>Front-end Engineer</h4>
+              <p>
+                <i class="fas fa-building"></i> Google, Inc.
+                <i class="fas fa-map-marker-alt"></i> San Francisco
+              </p>
+            </div>
+            <p>
+              <span
+                style="
+                  background-color: rgba(150, 187, 124, 0.1);
+                  border-radius: 30px;
+                  padding: 7px 20px;
+                  color: #96bb7c;
+                  font-size: 12px;
+                  letter-spacing: 0.1rem;
+                  font-weight: 700;
+                "
+                >PART TIME</span
+              >
+              <br />
+              <br />
+              <i class="fas fa-calendar-alt"></i> March 2015 - November 2019
+            </p>
+          </div>
+          <div class="experience">
+            <div>
+              <h4>Web Designer</h4>
+              <p>
+                <i class="fas fa-building"></i> Github, Inc.
+                <i class="fas fa-map-marker-alt"></i> San Francisco
+              </p>
+            </div>
+            <p>
+              <span
+                style="
+                  background-color: rgba(150, 187, 124, 0.1);
+                  border-radius: 30px;
+                  padding: 7px 20px;
+                  color: #96bb7c;
+                  font-size: 12px;
+                  letter-spacing: 0.1rem;
+                  font-weight: 700;
+                "
+                >FULLTIME</span
+              >
+              <br />
+              <br />
+              <i class="fas fa-calendar-alt"></i> January 2010 - March 2015
+            </p>
+          </div>
+          <div class="experience">
+            <div>
+              <h4>Lead Front-end Engineer</h4>
+              <p>
+                <i class="fas fa-building"></i> Slack, Inc.
+                <i class="fas fa-map-marker-alt"></i> San Francisco
+              </p>
+            </div>
+            <p>
+              <span
+                style="
+                  background-color: rgba(150, 187, 124, 0.1);
+                  border-radius: 30px;
+                  padding: 7px 20px;
+                  color: #96bb7c;
+                  font-size: 12px;
+                  letter-spacing: 0.1rem;
+                  font-weight: 700;
+                "
+                >FULLTIME</span
+              >
+              <br />
+              <br /><i class="fas fa-calendar-alt"></i> January 2010
+            </p>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Education</h3>
+          <div class="education">
+            <div>
+              <h4>Master in Software Engineering</h4>
+              <p><i class="fas fa-graduation-cap"></i> Harvard University</p>
+            </div>
+            <p><i class="fas fa-calendar-alt"></i>Columbia University</p>
+          </div>
+          <div class="education">
+            <div>
+              <h4>Bachelor in Software Engineering</h4>
+              <p><i class="fas fa-graduation-cap"></i> Columbia University</p>
+            </div>
+            <p>
+              <i class="fas fa-calendar-alt"></i> March 2015 - November 2019
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Blog">
+      <div class="BlogOne">
+        <h2>Happy Clients</h2>
+        <div class="testimonials-container">
+          <div class="testimonial-card">
+            <img src="Imgs/person_1.jpg" alt="Client 1" />
+            <p>
+              "Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean."
+            </p>
+            <span style="display: flex; font-style: italic"
+              >— Jeremy Winston, CEO
+              <span style="color: #28a745">XYZ Inc.</span></span
+            >
+          </div>
+          <div class="testimonial-card">
+            <img src="Imgs/person_2.jpg" alt="Client 2" />
+            <p>
+              "Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean."
+            </p>
+            <span style="display: flex; font-style: italic"
+              >— Richard Atkinson, CEO
+              <span style="color: #28a745">XYZ Inc</span>.</span
+            >
+          </div>
+          <div class="testimonial-card">
+            <img src="Imgs/person_3.jpg" alt="Client 3" />
+            <p>
+              "Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean."
+            </p>
+            <span style="display: flex; font-style: italic"
+              >— Jeremy Winston, CEO
+              <span style="color: #28a745">XYZ Inc.</span></span
+            >
+          </div>
+          <div class="testimonial-card">
+            <img src="Imgs/person_4.jpg" alt="Client 4" />
+            <p>
+              "Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean."
+            </p>
+            <span style="display: flex; font-style: italic"
+              >— Richard Atkinson, CEO
+              <span style="color: #28a745">XYZ Inc.</span></span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="BlogTwo">
+        <div class="medium-posts">
+          <h2>Read on Medium</h2>
+          <div class="post">
+            <div>
+              <span class="date">JUN 28, 2020</span>
+              <h3>Front-end Developer Demands today</h3>
+            </div>
+
+            <span class="read-time">2 MINS READ</span>
+          </div>
+          <div class="post">
+            <div>
+              <span class="date">JUN 28, 2020</span>
+              <h3>I USED React JS</h3>
+            </div>
+            <span class="read-time">2 MINS READ</span>
+          </div>
+          <div class="post">
+            <div>
+              <span class="date">JUN 28, 2020</span>
+              <h3>Why Front-end Developer So Important</h3>
+            </div>
+            <span class="read-time">2 MINS READ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-form">
+          <form>
+            <div class="form-row">
+              <input type="text" placeholder="First name" required />
+              <input type="text" placeholder="Last name" required />
+            </div>
+            <input type="email" placeholder="Email address" required />
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">SEND MESSAGE</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>
+            <i class="fas fa-map-marker-alt" style="color: black"></i>
+            43 Raymouth Rd. Baltemoer, London 3910
+          </p>
+          <p style="color: #96bb7c">
+            <i class="fas fa-phone-alt"></i>
+            +1(123)-456-7890
+          </p>
+          <p style="color: #96bb7c">
+            <i class="fas fa-phone-alt"></i>
+            +1(123)-456-7890
+          </p>
+          <p style="color: #96bb7c">
+            <i class="fas fa-envelope"></i>
+            info@mydomain.com
+          </p>
+          <p style="color: #96bb7c">
+            <i class="fas fa-globe"></i>
+            https://Colorlib
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Orbit</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <div class="social-icons">
+            <p>Connect</p>
+            <div class="gami">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS3</a></li>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Javascript</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">eCommerce</a></li>
+            <li><a href="#">Wordpress</a></li>
+            <li><a href="#">Frontend</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>43 Raymouth Rd. Baltemoer, London 3910</p>
+          <p>+1(123)-456-7890</p>
+          <p>+1(123)-456-7890</p>
+          <p>info@mydomain.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          Copyright ©2025 All rights reserved | This template is made with
+          <i class="fas fa-heart"></i> by
+          <a href="#" class="colorlib-link">Colorlib</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
