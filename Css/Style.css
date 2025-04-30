@@ -949,6 +949,6 @@ footer {
   color: #28a745; 
 }
 .filter-btn.active {
-  border-bottom: 3px solid #28a745;  /* Alt hissədə yaşıl xətt */
-  color:#28a745 ;  /* Yazı rəngini qara saxlayırıq */
+  border-bottom: 3px solid #28a745;  
+  color:#28a745 ;  
 }
