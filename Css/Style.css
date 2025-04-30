@@ -935,3 +935,20 @@ footer {
 .footer-bottom .colorlib-link:hover {
   color: #218838;
 }
+.filter-btn {
+  background: none; 
+  border: none;
+  color: inherit; 
+  text-decoration: none; 
+  font-size: 1rem;
+  cursor: pointer; 
+  padding: 0;
+  margin: 0;
+}
+.filter-btn:hover {
+  color: #28a745; 
+}
+.filter-btn.active {
+  border-bottom: 3px solid #28a745;  /* Alt hissədə yaşıl xətt */
+  color:#28a745 ;  /* Yazı rəngini qara saxlayırıq */
+}
